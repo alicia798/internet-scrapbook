@@ -1,0 +1,149 @@
+body {
+    background-color: #fef9e7;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color:#3c763d;
+    padding: 20px;
+}
+.page-wrapper {
+    border: 5px double #ff69b4;
+    padding: 30px;
+    margin: auto;
+    width: 80%;
+    background-color: #ffffff;
+  }
+
+  .memory-text {
+    background-color: #dff0d8;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-left: 6px solid #3c763d;
+  }
+
+  .images {
+    margin: 20px 0;
+  }
+  
+  .screenshot {
+    width: 300px;
+    margin-right: 10px;
+    border: 3px solid #999;
+  }
+  
+  .gif {
+    width: 150px;
+  }
+
+  .favorites-list {
+    background-color: #f0f8ff;
+    padding: 10px;
+    border: 2px dashed #007bff;
+  }
+  
+  .modern-sound {
+    color: plum;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 1px 1px 2px #000;
+  letter-spacing: 2px;
+  }
+
+  body {
+    font-family: 'WeirdFont', cursive;
+  }
+  h1 {
+    font-size: 8vw;
+  }
+  .gradient-box {
+    background: linear-gradient(to right, #ff00cc, #3333ff);
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .text-box {
+    position: absolute;
+    bottom: 100px;
+    right: 50px;
+  }
+  .page-wrapper {
+  position: relative;
+}
+@font-face {
+    font-family: 'WeirdFont';
+    src: url('assets/fonts/WeirdFont.ttf');
+  }
+  
+  .handwriting {
+    position: absolute;
+    top: 1150px;
+    left: 600px;
+    width: 250px;
+    transform: rotate(-3deg);
+    z-index: 5;
+  }
+
+.nintendo {
+    position: absolute;
+    top: 680px;
+    right: 200px;
+    width: 200px;
+    transform: rotate(-5deg);
+  }
+  .computer {
+    position: absolute;
+    top: 0px;    /* lower it down under the title */
+    right: -80px;   /* stay on the right */
+    width: 200px;  /* slightly bigger */
+    transform: rotate(-3deg); /* slight angle if you want */
+  }
+
+  .gif-image {
+    position: absolute;
+    top:  300px;     /* Higher: near the top */
+    left: 500px;   /* More to the right in the white space */
+    width: 350px;  /* Keep it a nice size */
+    transform: rotate(-0deg);
+    z-index: 10;   /* Stay above the background but not too crazy */
+  }
+  .note1 {
+    position: absolute;
+    top: 1800px;
+    left: 850px;
+    width: 100px;
+    transform: rotate(-5deg);
+  }
+  
+  .note2 {
+    position: absolute;
+    top: 1850px;
+    left: 800px;
+    width: 100px;
+    transform: rotate(4deg);
+  }
+  
+  .note3 {
+    position: absolute;
+    top: 1800px;
+    left: 750px;
+    width: 100px;
+    transform: rotate(-3deg);
+  }
+  .note1, .note2, .note3 {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  .welcome-box {
+    position: absolute;
+    top: 1680px; /* adjust this number */
+    left: 620px; /* adjust this number */
+    font-size: 24px;
+    font-weight: bold;
+    z-index: 10;
+  }
+  .just-box {position: absolute;
+    top: 2030px; /* adjust this number */
+    left: 400px; /* adjust this number */
+    font-size: 24px;
+    font-weight: bold;
+    z-index: 10;
+  }
